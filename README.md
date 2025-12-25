@@ -3,7 +3,8 @@
 [English](#english) | [中文](#chinese)
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400?text=Christmas+Memory+Preview" alt="Project Preview" width="100%" />
+  <img width="889" height="800" alt="image" src="https://github.com/user-attachments/assets/58ac79d8-8fa7-417f-bee0-b36f00f4c187" />
+  <img width="1901" height="883" alt="image" src="https://github.com/user-attachments/assets/71960c30-9855-484c-bfd7-ca146310000e" />
 </div>
 
 ## ✨ Introduction (项目介绍)
