@@ -3,7 +3,8 @@
 [English](#english) | [中文](#chinese)
 
 <div align="center">
-  <img width="889" height="800" alt="image" src="https://github.com/user-attachments/assets/58ac79d8-8fa7-417f-bee0-b36f00f4c187" />
+  <img width="1905" height="876" alt="image" src="https://github.com/user-attachments/assets/73311a7b-798e-4a36-a5fe-d2fc0403ed61" />
+
   <img width="1901" height="883" alt="image" src="https://github.com/user-attachments/assets/71960c30-9855-484c-bfd7-ca146310000e" />
 </div>
 
@@ -69,7 +70,7 @@ Users can interact with the scene using **Hand Gestures** (via webcam) to transf
 
 ## 🖱 Usage (使用指南)
 
-1.  Click **"点亮属于我们的回忆"** to enter the scene.
+1.  Click **"点亮回忆"** to enter the scene.
 2.  **Upload Photos**: Click the Image icon (top right) to select multiple photos.
 3.  **Upload Music**: Click the Music icon to add your favorite songs.
 4.  **Gesture Control**: Click the Camera icon to enable hand tracking.
