@@ -1,89 +1,104 @@
 # 🎄 Christmas Memory - 3D Interactive Experience
 
-[English](#english) | [中文](#chinese)
+[🇨🇳 中文说明](#-中文说明) | [🇬🇧 English](#-english-introduction)
 
 <div align="center">
-  <img width="1905" height="876" alt="image" src="https://github.com/user-attachments/assets/73311a7b-798e-4a36-a5fe-d2fc0403ed61" />
+  <img width="1896" height="878" alt="image" src="https://github.com/user-attachments/assets/e555c82f-8d33-4b3b-a45f-0779eb3a71dc" />
+  <img width="1912" height="880" alt="image" src="https://github.com/user-attachments/assets/60c44e3b-4e33-4759-bb90-fc842c02fe2c" />
 
-  <img width="1901" height="883" alt="image" src="https://github.com/user-attachments/assets/71960c30-9855-484c-bfd7-ca146310000e" />
 </div>
 
-## ✨ Introduction (项目介绍)
-灵感来源：清儿了个清（小红书ID:Youmihua888)
+---
 
-This is a 3D interactive web application built as a special Christmas gift. It creates a magical digital space where memories are displayed as particles on a Christmas tree.
+## 🇬🇧 English Introduction
+
+**Christmas Memory** is a 3D interactive web application built as a special Christmas gift. It creates a magical digital space where memories are displayed as particles on a Christmas tree.
 
 Users can interact with the scene using **Hand Gestures** (via webcam) to transform the tree into a heart shape, revealing cherished memories and a love anniversary counter.
 
-这是一个基于 React 和 Three.js 开发的 3D 互动网页，也是一份特别的圣诞礼物。在这个魔法空间里，回忆化作粒子汇聚成圣诞树。可以通过**手势控制**（摄像头识别），让圣诞树瞬间炸裂变成一颗爱心，展示珍贵的照片墙和恋爱纪念日计时。
-
-## 🚀 Features (核心功能)
+### 🚀 Features
 
 * **3D Particle System**: High-performance particle rendering representing a Christmas Tree and a Heart shape.
-    * **3D 粒子系统**：高性能渲染的圣诞树与爱心形态切换。
 * **Hand Gesture Control**: Integrated with **MediaPipe** for real-time hand tracking.
-    * 👌 **Pinch (捏合)**: Gather particles into a Tree.
-    * 🖐 **Open Hand (张开)**: Explode particles into a Heart.
-    * **AI 手势识别**：通过摄像头捕捉手势，捏合聚拢成树，张开炸裂成心。
+    * 👌 **Pinch**: Gather particles into a Tree.
+    * 🖐 **Open Hand**: Explode particles into a Heart.
 * **Smart Photo Gallery**:
     * **Tree Mode**: Photos arranged in a perfect **Fibonacci Spiral**.
     * **Heart Mode**: Photos rearrange into a floating heart wall.
     * **Dynamic View**: Photos rotate intelligently to face the camera based on viewing angle.
-    * **智能相册**：支持斐波那契螺旋排列（树模式）和爱心墙排列（心模式），视角智能跟随。
 * **Interactive Media**:
     * 🎵 **Music Player**: Upload multiple songs for a loop playlist.
     * 📸 **Photo Upload**: Drag & drop or select multiple photos to generate the gallery.
-    * **多媒体交互**：支持多首背景音乐上传循环播放，支持自定义照片上传。
-* **Love Timer**: Automatically calculates and displays the days since the anniversary (e.g., 2022.09.20).
-    * **纪念日计时**：自动计算恋爱天数。
+* **Love Timer**: Automatically calculates and displays the days since the anniversary.
 
-## 🛠 Tech Stack (技术栈)
+### 🛠 Tech Stack
 
 * **Core**: React, TypeScript, Vite
-* **3D Engine**: Three.js, React Three Fiber (@react-three/fiber)
-* **AI/Computer Vision**: MediaPipe (Tasks Vision)
-* **Styling**: Tailwind CSS
-* **Icons**: Lucide React
+* **3D Engine**: Three.js, React Three Fiber
+* **AI/CV**: MediaPipe (Tasks Vision)
 
-## 💻 Getting Started (如何运行)
+### 💻 Getting Started
 
 1.  **Clone the repository**
     ```bash
     git clone [https://github.com/TheWind-upBird/christmas-memory.git](https://github.com/TheWind-upBird/christmas-memory.git)
     cd christmas-memory
     ```
-
 2.  **Install dependencies**
     ```bash
     npm install
     ```
-
 3.  **Run locally**
     ```bash
     npm run dev
     ```
 
-4.  **Build for deployment**
-    ```bash
-    npm run build
-    ```
-
-## 🖱 Usage (使用指南)
-
-1.  Click **"点亮回忆"** to enter the scene.
-2.  **Upload Photos**: Click the Image icon (top right) to select multiple photos.
-3.  **Upload Music**: Click the Music icon to add your favorite songs.
-4.  **Gesture Control**: Click the Camera icon to enable hand tracking.
-    * Hold your hand up to the camera.
-    * Pinch index finger and thumb to hold the tree.
-    * Release to explode into a heart!
-5.  **Focus Mode**: Click on any floating photo to bring it front and center.
-
-## 🎁 Dedication
-
-Built with ❤️ for Tong.
-May our memories shine forever like these stars.
-
 ---
 
+## 🇨🇳 中文说明
+
+[Go back to Top](#-christmas-memory---3d-interactive-experience)
+
+**Christmas Memory** 这是一个基于 React 和 Three.js 开发的 3D 互动网页，也是一份特别的圣诞礼物。在这个魔法空间里，回忆化作粒子汇聚成圣诞树。
+
+用户可以通过**手势控制**（摄像头识别），让圣诞树瞬间炸裂变成一颗爱心，展示珍贵的照片墙和恋爱纪念日计时。
+
+### 🚀 核心功能
+
+* **3D 粒子系统**：高性能渲染的圣诞树与爱心形态切换。
+* **AI 手势识别**：集成 MediaPipe 实现实时手部追踪。
+    * 👌 **捏合 (Pinch)**：粒子聚拢成圣诞树。
+    * 🖐 **张开 (Open)**：粒子炸裂成爱心。
+* **智能相册**：
+    * **树模式**：照片按斐波那契螺旋完美排列。
+    * **心模式**：照片重组为悬浮爱心墙。
+    * **视角跟随**：无论从哪个角度观察，照片都会智能旋转面向你。
+* **多媒体交互**：
+    * 🎵 **音乐播放**：支持上传多首歌曲，自动循环播放。
+    * 📸 **照片上传**：支持拖拽或多选上传自定义照片。
+* **纪念日计时**：自动计算并显示恋爱天数（如 1192天）。
+
+### 🛠 技术栈
+
+* **核心框架**: React, TypeScript, Vite
+* **3D 引擎**: Three.js, React Three Fiber (@react-three/fiber)
+* **计算机视觉**: MediaPipe (Tasks Vision)
+
+### 💻 如何运行
+
+1.  **克隆仓库**
+    ```bash
+    git clone [https://github.com/TheWind-upBird/christmas-memory.git](https://github.com/TheWind-upBird/christmas-memory.git)
+    cd christmas-memory
+    ```
+2.  **安装依赖**
+    ```bash
+    npm install
+    ```
+3.  **本地启动**
+    ```bash
+    npm run dev
+    ```
+
+---
 *Project created by [TheWind-upBird](https://github.com/TheWind-upBird)*
