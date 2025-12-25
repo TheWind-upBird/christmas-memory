@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 重置基础样式，为 3D 场景腾出空间 */
+body {
+  margin: 0;
+  padding: 0;
+  /* 还原原本 HTML 里的深黑色背景 */
+  background-color: #050103;
+  /* 隐藏滚动条，防止出现多余的白边 */
+  overflow: hidden;
+  /* 禁止用户选中文本，像原生 App 一样 */
+  user-select: none;
+  font-family: 'Inter', sans-serif;
+}
+
+/* 让 React 的挂载点占满全屏 */
+#root {
+  width: 100%;
+  height: 100vh;
+}
